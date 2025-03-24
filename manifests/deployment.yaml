@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: SmartManuFacturing_MLOpsFashion_app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: SmartManuFacturing_MLOpsFashion_app
+  template:
+    metadata:
+      labels:
+        app: SmartManuFacturing_MLOpsFashion_app
+    spec:
+      containers:
+      - name: SmartManuFacturing_MLOpsFashion_app
+        image: 
+
+        ports:
+        - containerPort: 5000 # kubernetes port exposed

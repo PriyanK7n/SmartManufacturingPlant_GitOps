@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Smart Manufacturing Plant Efficiency Prediction</title>
+</head>
+
+<body>
+    <h1>Smart Manufacturing Plant Efficiency Prediction</h1>
+
+    <form method="post">
+
+        {# Using features variable with Jinja2 template #}
+        {% for feature in features %}
+            <label for="{{ feature }}">{{ feature }}:</label>
+            <input type="text" name="{{ feature }}" required><br>
+        {% endfor %}
+
+        <button type="submit">PREDICT</button>
+    </form>
+
+    {# Using prediction variable with Jinja2 template #}
+    {% if prediction %}
+        <h2>Prediction: {{ prediction }}</h2>
+    {% endif %}
+
+</body>
+</html>
