@@ -14,7 +14,6 @@ spec:
     spec:
       containers:
       - name: SmartManuFacturing_MLOpsFashion_app
-        image: 
-
+        image: priyank179/gitops_project:latest
         ports:
         - containerPort: 5000 # kubernetes port exposed
