@@ -4,6 +4,21 @@ A full-scale MLOps project focused on building and deploying an ML model for pre
 
 ---
 
+## Application
+
+<img width="1337" alt="image" src="https://github.com/user-attachments/assets/fa1f41d3-989b-4b7e-8d04-f11bdc7483ac" />
+
+
+### CI Workflow using Jenkins
+
+<img width="1258" alt="image" src="https://github.com/user-attachments/assets/b1d479cd-b2bd-47b9-a1c2-12eeb3c6d0a3" />
+
+
+### CD Workflow using Argo CD 
+
+![Pasted Graphic](https://github.com/user-attachments/assets/1aaae714-93c7-406f-8f23-c6062e94fde2)
+
+
 ## 🎯 Target Audience
 
 - Automobile Manufacturing Industry
@@ -13,6 +28,7 @@ A full-scale MLOps project focused on building and deploying an ML model for pre
 
 ---
 
+
 ## 🧠 Use Case
 
 By predicting the efficiency of smart manufacturing machines:
@@ -21,6 +37,7 @@ By predicting the efficiency of smart manufacturing machines:
 - 📈 Improve **production efficiency**
 
 ---
+
 
 ## ⚙️ Project Workflow
 
@@ -43,6 +60,7 @@ By predicting the efficiency of smart manufacturing machines:
 
 ---
 
+
 ## 🧪 Tech Stack
 
 - **CI Tool**: Jenkins
@@ -54,6 +72,7 @@ By predicting the efficiency of smart manufacturing machines:
 - **Monitoring**: GitHub Webhooks + Argo CD Rollbacks
 
 ---
+
 
 ## 🔁 CI/CD Architecture
 
